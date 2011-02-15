@@ -68,8 +68,8 @@ class IMified(webapp.RequestHandler):
             )   
             message.put()
             # send an email with the message on
-            mail.send_mail(sender="gareth.rushgrove@gmail.com",
-                          to="Gareth Rushgrove <gareth@morethanseven.net>",
+            mail.send_mail(sender="rizal.um@gmail.com",
+                          to="fer <fer@mig33.com>",
                           subject="New message posted on IMified demo",
                           body=msg)
             # we just added a message so we need to clear our cache
